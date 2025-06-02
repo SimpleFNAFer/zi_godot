@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://ph7e8dvtjxjv"]
+
+[ext_resource type="Script" uid="uid://b86gowdt7ojof" path="res://description.gd" id="1_v0hl5"]
+
+[node name="Description" type="PanelContainer"]
+visible = false
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(300, 300)
+offset_right = 300.0
+offset_bottom = 300.0
+script = ExtResource("1_v0hl5")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+custom_minimum_size = Vector2(10, 0)
+layout_mode = 2
+scroll_active = false
+scroll_following = true

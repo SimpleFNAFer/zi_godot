@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://3c7fl5th6oyi"]
+
+[ext_resource type="Script" uid="uid://cwf78ecc3i1vk" path="res://pc.gd" id="1_lulvd"]
+[ext_resource type="Texture2D" uid="uid://7vckor10sjjj" path="res://assets/Computer.png" id="2_lulvd"]
+
+[node name="PC" type="Panel"]
+custom_minimum_size = Vector2(100, 100)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lulvd")
+
+[node name="Sprite2D" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_lulvd")
+
+[node name="Button" type="Button" parent="Sprite2D"]
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[connection signal="button_down" from="Sprite2D/Button" to="." method="_on_button_button_down"]
+[connection signal="button_up" from="Sprite2D/Button" to="." method="_on_button_button_up"]

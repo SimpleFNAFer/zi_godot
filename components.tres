@@ -1,0 +1,8 @@
+[gd_resource type="JSON" format=3 uid="uid://drwvmf03hm5dq"]
+
+[resource]
+data = [{
+"display_name": "физический объект",
+"icon_path": "res://assets/physical_object.png",
+"name": "physical_object"
+}]

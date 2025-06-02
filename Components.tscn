@@ -1,0 +1,61 @@
+[gd_scene load_steps=8 format=3 uid="uid://dht2u38stmu88"]
+
+[ext_resource type="PackedScene" uid="uid://ncccsaysovli" path="res://PhysicalObjectII.tscn" id="1_c4l4a"]
+[ext_resource type="PackedScene" uid="uid://cia5b6omt78sc" path="res://PCBII.tscn" id="2_u50i4"]
+[ext_resource type="PackedScene" uid="uid://7xofykcsmelk" path="res://RouterII.tscn" id="3_c4l4a"]
+[ext_resource type="Script" uid="uid://cwgx572sj5t64" path="res://router_ii.gd" id="4_ibuux"]
+[ext_resource type="PackedScene" uid="uid://k5k0ankbjfyr" path="res://PCII.tscn" id="5_vjbx5"]
+[ext_resource type="PackedScene" uid="uid://bcrk8fnakwjqe" path="res://LocalServerII.tscn" id="6_sehcd"]
+[ext_resource type="PackedScene" uid="uid://dhmykemvc6nha" path="res://CloudII.tscn" id="7_d17vq"]
+
+[node name="Components" type="Control"]
+layout_mode = 3
+anchor_top = 0.8
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="."]
+self_modulate = Color(0.0980392, 0.560784, 0.317647, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GridContainer" type="GridContainer" parent="Panel"]
+self_modulate = Color(0.0980392, 0.560784, 0.317647, 1)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -204.0
+offset_top = -72.0
+offset_right = 204.0
+offset_bottom = 72.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 7
+
+[node name="PhysicalObjectIi" parent="Panel/GridContainer" instance=ExtResource("1_c4l4a")]
+layout_mode = 2
+
+[node name="PCBII" parent="Panel/GridContainer" instance=ExtResource("2_u50i4")]
+layout_mode = 2
+
+[node name="RouterII" parent="Panel/GridContainer" instance=ExtResource("3_c4l4a")]
+layout_mode = 2
+script = ExtResource("4_ibuux")
+
+[node name="PCII" parent="Panel/GridContainer" instance=ExtResource("5_vjbx5")]
+layout_mode = 2
+
+[node name="LocalServerII" parent="Panel/GridContainer" instance=ExtResource("6_sehcd")]
+layout_mode = 2
+
+[node name="CloudII" parent="Panel/GridContainer" instance=ExtResource("7_d17vq")]
+layout_mode = 2

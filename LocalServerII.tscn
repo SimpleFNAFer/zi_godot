@@ -1,0 +1,56 @@
+[gd_scene load_steps=3 format=3 uid="uid://bcrk8fnakwjqe"]
+
+[ext_resource type="Script" uid="uid://c8nt12fvse4ka" path="res://local_server_ii.gd" id="1_g4nqp"]
+[ext_resource type="Texture2D" uid="uid://c4408a5lb6ury" path="res://assets/Server.png" id="2_g4nqp"]
+
+[node name="LocalServerII" type="VBoxContainer"]
+custom_minimum_size = Vector2(100, 100)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50.0
+offset_top = -50.0
+offset_right = 150.0
+offset_bottom = 94.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_g4nqp")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("2_g4nqp")
+stretch_mode = 3
+
+[node name="Button" type="Button" parent="TextureRect"]
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(200, 40)
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "ЛОКАЛЬНЫЙ СЕРВЕР"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="button_down" from="TextureRect/Button" to="." method="_on_button_button_down"]
+[connection signal="mouse_entered" from="TextureRect/Button" to="." method="_on_button_mouse_entered"]
+[connection signal="mouse_exited" from="TextureRect/Button" to="." method="_on_button_mouse_exited"]
