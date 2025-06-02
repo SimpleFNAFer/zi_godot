@@ -1,0 +1,188 @@
+[gd_scene format=3 uid="uid://dmgpibfqf57ms"]
+
+[node name="szi" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.803922, 0.952941, 0.980392, 1)
+
+[node name="Panel" type="Panel" parent="ColorRect"]
+custom_minimum_size = Vector2(800, 600)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="ColorRect/Panel"]
+custom_minimum_size = Vector2(700, 500)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -350.0
+offset_top = -500.0
+offset_right = 350.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect/Panel/ScrollContainer"]
+custom_minimum_size = Vector2(800, 600)
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ColorRect/Panel/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(750, 300)
+layout_mode = 2
+alignment = 1
+
+[node name="CheckBox" type="CheckBox" parent="ColorRect/Panel/ScrollContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+alignment = 1
+icon_alignment = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ColorRect/Panel/ScrollContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(600, 250)
+layout_mode = 2
+bbcode_enabled = true
+text = "[b]КриптоПро CSP[/b] 
+
+[i]Компания:[/i]  КриптоПро (Москва) 
+
+[i]Описание:[/i] 
+ КриптоПро CSP — это криптографический сервисный провайдер, обеспечивающий реализацию стандартов криптографической защиты информации, включая средства аутентификации и идентификации на основе электронной подписи и сертификатов. Используется для создания защищенных каналов и удостоверения пользователей в системах управления цифровыми двойниками.  
+
+Функции: 
+
+ - Поддержка ГОСТ алгоритмов шифрования и электронной подписи 
+
+ - Реализация многофакторной аутентификации  
+
+- Интеграция с системами управления доступом и электронным документооборотом  
+
+- Обеспечение криптографической защиты коммуникаций между компонентами цифрового двойника  
+
+Цена: 
+
+Лицензия на один рабочий стол стоит примерно от 10 000 до 25 000 рублей в зависимости от комплектации и срока поддержки."
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="ColorRect/Panel/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(750, 50)
+layout_mode = 2
+alignment = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ColorRect/Panel/ScrollContainer/VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(600, 50)
+layout_mode = 2
+size_flags_vertical = 4
+bbcode_enabled = true
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="ColorRect/Panel/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(750, 300)
+layout_mode = 2
+alignment = 1
+
+[node name="CheckBox" type="CheckBox" parent="ColorRect/Panel/ScrollContainer/VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+alignment = 1
+icon_alignment = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ColorRect/Panel/ScrollContainer/VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(600, 300)
+layout_mode = 2
+bbcode_enabled = true
+text = "[b]Рутокен ЭЦП[/b] 
+
+[i]Компания:[/i]  Акционерное общество \"Алкор Био\" (Москва)  
+
+[i]Описание:[/i]
+Рутокен — аппаратный криптографический токен для хранения ключей электронной подписи и аутентификации. Используется в системах ИАФ для надежной идентификации пользователей и защиты от подделки учетных данных.  
+
+Функции: 
+
+ - Аппаратное хранение ключей  
+
+- Поддержка ГОСТ алгоритмов и международных стандартов  
+
+- Обеспечение двухфакторной аутентификации (токен + PIN)  
+
+- Интеграция с системами управления доступом и цифровыми подписями  
+
+Цена: 
+
+ Средняя стоимость устройства — от 1500 до 4000 рублей за токен, в зависимости от модели и функционала."
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="ColorRect/Panel/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(750, 300)
+layout_mode = 2
+alignment = 1
+
+[node name="CheckBox" type="CheckBox" parent="ColorRect/Panel/ScrollContainer/VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+alignment = 1
+icon_alignment = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ColorRect/Panel/ScrollContainer/VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(600, 300)
+layout_mode = 2
+bbcode_enabled = true
+text = "[b]КриптоПро CSP[/b] 
+
+[i]Компания:[/i]  КриптоПро (Москва) 
+
+[i]Описание:[/i] 
+ КриптоПро CSP — это криптографический сервисный провайдер, обеспечивающий реализацию стандартов криптографической защиты информации, включая средства аутентификации и идентификации на основе электронной подписи и сертификатов. Используется для создания защищенных каналов и удостоверения пользователей в системах управления цифровыми двойниками.  
+
+Функции: 
+
+ - Поддержка ГОСТ алгоритмов шифрования и электронной подписи 
+
+ - Реализация многофакторной аутентификации  
+
+- Интеграция с системами управления доступом и электронным документооборотом  
+
+- Обеспечение криптографической защиты коммуникаций между компонентами цифрового двойника  
+
+Цена: 
+
+Лицензия на один рабочий стол стоит примерно от 10 000 до 25 000 рублей в зависимости от комплектации и срока поддержки."
+
+[node name="Label" type="Label" parent="ColorRect/Panel"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -143.0
+offset_top = 29.0
+offset_right = 143.0
+offset_bottom = 52.0
+grow_horizontal = 2
+text = "СРЕДСТВА ЗАЩИТЫ ИНФОРМАЦИИ"

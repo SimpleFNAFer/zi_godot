@@ -1,0 +1,670 @@
+[
+	{
+		"name": "szi1",
+		"display_name": "КриптоПро CSP",
+		"desc_path": "1.txt",
+		"price": 17500.0,
+		"price_desc": "Лицензия на один рабочий стол стоит примерно от 10 000 до 25 000 рублей в зависимости от комплектации и срока поддержки.",
+		"components": [
+			"local_server",
+			"central_server",
+			"prom_pc",
+			"pc",
+			"cloud"
+		]
+	},
+	{
+		"name": "szi2",
+		"display_name": "Рутокен ЭЦП",
+		"desc_path": "2.txt",
+		"price": 2750.0,
+		"price_desc": "Средняя стоимость устройства — от 1500 до 4000 рублей за токен, в зависимости от модели и функционала.",
+		"components": [
+			"prom_pc",
+			"pc",
+			"device"
+		]
+	},
+	{
+		"name": "szi3",
+		"display_name": "СКУД OGATE Control",
+		"desc_path": "3.txt",
+		"price": 0.0,
+		"price_desc": "",
+		"components": [
+			"physical_object",
+			"local_server",
+			"pc"
+		]
+	},
+	{
+		"name": "szi4",
+		"display_name": "SecurIT",
+		"desc_path": "4.txt",
+		"price": 500000.0,
+		"price_desc": "Стоимость лицензий и внедрения начинается от 500 000 рублей, зависит от масштаба и количества пользователей.",
+		"components": [
+			"local_server",
+			"central_server",
+			"datacenter",
+			"cloud"
+		]
+	},
+	{
+		"name": "szi5",
+		"display_name": "Dionis DPS",
+		"desc_path": "5.txt",
+		"price": 0.0,
+		"price_desc": "",
+		"components": [
+			"physical_object",
+			"local_server",
+			"pc"
+		]
+	},
+	{
+		"name": "szi6",
+		"display_name": "СКУД Астра",
+		"desc_path": "6.txt",
+		"price": 300000.0,
+		"price_desc": "От 300 000 рублей за базовую систему с поддержкой до 100 пользователей, стоимость зависит от масштабов и функционала.",
+		"components": [
+			"physical_object",
+			"local_server",
+			"pc"
+		]
+	},
+	{
+		"name": "szi7",
+		"display_name": "SafeNet Access Manager",
+		"desc_path": "7.txt",
+		"price": 500000.0,
+		"price_desc": "От 500 000 рублей за лицензию на 100 пользователей, с возможностью масштабирования.",
+		"components": [
+			"local_server",
+			"central_server",
+			"cloud"
+		]
+	},
+	{
+		"name": "szi8",
+		"display_name": "PAM Управление доступом",
+		"desc_path": "8.txt",
+		"price": 600000.0,
+		"price_desc": "Цена сильно зависит от поставщика и объема лицензий, ориентировочно от 200 000 до 1 000 000 рублей.",
+		"components": [
+			"local_server",
+			"central_server",
+			"datacenter"
+		]
+	},
+	{
+		"name": "szi9",
+		"display_name": "Парус",
+		"desc_path": "9.txt",
+		"price": 250000.0,
+		"price_desc": "От 250 000 рублей за начальный пакет, в зависимости от количества пользователей и интеграций.",
+		"components": [
+			"local_server",
+			"central_server",
+			"pc"
+		]
+	},
+	{
+		"name": "szi10",
+		"display_name": "ФОРПОСТ версии 2.0",
+		"desc_path": "10.txt",
+		"price": 400000.0,
+		"price_desc": "От 400 000 рублей за базовый комплект, зависит от количества пользователей и интеграций.",
+		"components": [
+			"local_server",
+			"central_server",
+			"datacenter"
+		]
+	},
+	{
+		"name": "szi11",
+		"display_name": "Kaspersky Industrial CyberSecurity (KICS)",
+		"desc_path": "11.txt",
+		"price": 100000.0,
+		"price_desc": "Цена зависит от конфигурации, от 100 000 рублей за серверную лицензию.",
+		"components": [
+			"plc",
+			"prom_pc",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi12",
+		"display_name": "ИнфоТеКС — ViPNet CSP",
+		"desc_path": "12.txt",
+		"price": 20000.0,
+		"price_desc": "Стоимость от 20 000 рублей за лицензию.",
+		"components": [
+			"local_server",
+			"central_server",
+			"prom_pc"
+		]
+	},
+	{
+		"name": "szi13",
+		"display_name": "Рутокен ГОСТ",
+		"desc_path": "13.txt",
+		"price": 4000.0,
+		"price_desc": "От 2 000 до 6 000 рублей за устройство",
+		"components": [
+			"prom_pc",
+			"pc"
+		]
+	},
+	{
+		"name": "szi14",
+		"display_name": "КриптоПро Файловый Шифратор",
+		"desc_path": "14.txt",
+		"price": 30000.0,
+		"price_desc": "От 20 000 до 40 000 рублей за лицензию",
+		"components": [
+			"prom_pc",
+			"pc",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi15",
+		"display_name": "Архивариус",
+		"desc_path": "15.txt",
+		"price": 30000.0,
+		"price_desc": "От 30 000 руб. за серверное решение",
+		"components": [
+			"pc",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi16",
+		"display_name": "ТрастМастер",
+		"desc_path": "16.txt",
+		"price": 50000.0,
+		"price_desc": "От 50 000 рублей за базовую версию, в зависимости от функционала и количества защищаемых узлов.",
+		"components": [
+			"central_server",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi17",
+		"display_name": "Dr.Web Enterprise Security Suite",
+		"desc_path": "17.txt",
+		"price": 1200.0,
+		"price_desc": "Стоимость лицензии начинается от 1200 рублей за устройство в год. Предлагаются скидки при большом объеме.",
+		"components": [
+			"prom_pc",
+			"local_server",
+			"pc"
+		]
+	},
+	{
+		"name": "szi18",
+		"display_name": "КриптоПро Антивирус",
+		"desc_path": "18.txt",
+		"price": 2000.0,
+		"price_desc": "От 2000 рублей за лицензию на устройство в год, зависит от комплектации и интеграции.",
+		"components": [
+			"prom_pc",
+			"local_server",
+			"pc"
+		]
+	},
+	{
+		"name": "szi19",
+		"display_name": "Аванпост",
+		"desc_path": "19.txt",
+		"price": 300000.0,
+		"price_desc": "Индивидуально, в зависимости от конфигурации и масштаба внедрения. Ориентировочно от 300 тысяч рублей за комплексное решение.",
+		"components": [
+			"physical_object",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi20",
+		"display_name": "Интегро",
+		"desc_path": "20.txt",
+		"price": 500000.0,
+		"price_desc": "От 500 000 рублей за базовый комплект, зависит от пропускной способности и масштабов.",
+		"components": [
+			"central_server",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi21",
+		"display_name": "Сфера",
+		"desc_path": "21.txt",
+		"price": 100000.0,
+		"price_desc": "Корпоративные решения от 100 000 рублей и выше, в зависимости от масштаба.",
+		"components": [
+			"datacenter",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi22",
+		"display_name": "РТК-Секьюрити Криптопро",
+		"desc_path": "22.txt",
+		"price": 300000.0,
+		"price_desc": "Зависит от объема трафика и числа пользователей, от 300 000 рублей за базовый комплект.",
+		"components": [
+			"central_server",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi23",
+		"display_name": "АСКОД",
+		"desc_path": "23.txt",
+		"price": 1500000.0,
+		"price_desc": "От 1 500 000 рублей за базовую конфигурацию (зависит от масштабов системы)",
+		"components": [
+			"physical_object",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi24",
+		"display_name": "КриптоСвязь",
+		"desc_path": "24.txt",
+		"price": 800000.0,
+		"price_desc": "От 800 000 рублей за комплект оборудования и ПО",
+		"components": [
+			"wire",
+			"wireless",
+			"gateway"
+		]
+	},
+	{
+		"name": "szi25",
+		"display_name": "Альт РТ",
+		"desc_path": "25.txt",
+		"price": 400000.0,
+		"price_desc": "Зависит от лицензирования и поддержки, примерно 200 000 - 600 000 рублей за серверную версию",
+		"components": [
+			"prom_pc",
+			"local_server",
+			"pc"
+		]
+	},
+	{
+		"name": "szi26",
+		"display_name": "СКУД-Про",
+		"desc_path": "26.txt",
+		"price": 1000000.0,
+		"price_desc": "От 1 000 000 рублей за базовый комплект",
+		"components": [
+			"physical_object",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi27",
+		"display_name": "Рутокен VPN",
+		"desc_path": "27.txt",
+		"price": 25000.0,
+		"price_desc": "От 20 000 рублей за устройство + лицензия от 5 000 рублей.",
+		"components": [
+			"device",
+			"pc",
+			"gateway"
+		]
+	},
+	{
+		"name": "szi28",
+		"display_name": "Альт",
+		"desc_path": "28.txt",
+		"price": 100000.0,
+		"price_desc": "Зависит от лицензии и поддержки, от 100 000 рублей за серверную версию.",
+		"components": [
+			"prom_pc",
+			"local_server",
+			"pc"
+		]
+	},
+	{
+		"name": "szi29",
+		"display_name": "Тритон",
+		"desc_path": "29.txt",
+		"price": 50000.0,
+		"price_desc": "Около 50 000 рублей за модуль.",
+		"components": [
+			"plc",
+			"prom_pc"
+		]
+	},
+	{
+		"name": "szi30",
+		"display_name": "InfoWatch Traffic Monitor",
+		"desc_path": "30.txt",
+		"price": 500000.0,
+		"price_desc": "От 500 000 рублей за базовую установку.",
+		"components": [
+			"local_server",
+			"central_server",
+			"datacenter"
+		]
+	},
+	{
+		"name": "szi31",
+		"display_name": "Сфера-А",
+		"desc_path": "31.txt",
+		"price": 200000.0,
+		"price_desc": "От 200 000 рублей за развертывание.",
+		"components": [
+			"local_server",
+			"datacenter"
+		]
+	},
+	{
+		"name": "szi32",
+		"display_name": "Атолл Крипто",
+		"desc_path": "32.txt",
+		"price": 1000000.0,
+		"price_desc": "Аппаратный ключ + ПО — от 1 000 000 рублей.",
+		"components": [
+			"local_server",
+			"central_server"
+		]
+	},
+	{
+		"name": "szi33",
+		"display_name": "Касперский Endpoint Security for Business",
+		"desc_path": "33.txt",
+		"price": 5000.0,
+		"price_desc": "От 5 000 рублей за лицензии на одно устройство.",
+		"components": [
+			"prom_pc",
+			"pc",
+			"device"
+		]
+	},
+	{
+		"name": "szi34",
+		"display_name": "КриптоПро ЭЦП",
+		"desc_path": "34.txt",
+		"price": 30000.0,
+		"price_desc": "От 10 000 до 50 000 рублей за лицензию, зависит от количества пользователей и типа интеграции.",
+		"components": [
+			"local_server",
+			"central_server",
+			"device",
+			"datacenter",
+			"pc",
+			"cloud"
+		]
+	},
+	{
+		"name": "szi35",
+		"display_name": "СКАТ-Мониторинг",
+		"desc_path": "35.txt",
+		"price": 850000.0,
+		"price_desc": "Порядка 500 000 – 1 200 000 рублей за комплекс, в зависимости от масштаба и лицензирования.",
+		"components": [
+			"local_server",
+			"central_server",
+			"prom_pc",
+			"cloud"
+		]
+	},
+	{
+		"name": "szi36",
+		"display_name": "Аналитика Инцидентов SOC",
+		"desc_path": "36.txt",
+		"price": 1000000.0,
+		"price_desc": "От 1 000 000 рублей, зависит от объема данных и числа источников.",
+		"components": [
+			"local_server",
+			"central_server",
+			"datacenter",
+			"cloud"
+		]
+	},
+	{
+		"name": "szi37",
+		"display_name": "Контур-ЭЦП",
+		"desc_path": "37.txt",
+		"price": 150000.0,
+		"price_desc": "От 150 000 рублей за базовую систему.",
+		"components": [
+			"local_server",
+			"central_server",
+			"device",
+			"pc"
+		]
+	},
+	{
+		"name": "szi38",
+		"display_name": "СКЦ-УКФ",
+		"desc_path": "38.txt",
+		"price": 1000000.0,
+		"price_desc": "От 500 000 до 1 500 000 рублей в зависимости от масштабов и лицензий",
+		"components": [
+			"central_server",
+			"datacenter",
+			"cloud"
+		]
+	},
+	{
+		"name": "szi39",
+		"display_name": "CyberX Управление Конфигурацией",
+		"desc_path": "39.txt",
+		"price": 800000.0,
+		"price_desc": "От 800 000 рублей за средний масштаб внедрения",
+		"components": [
+			"prom_pc",
+			"plc",
+			"gateway",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi40",
+		"display_name": "Диалог-Крипто",
+		"desc_path": "40.txt",
+		"price": 700000.0,
+		"price_desc": "От 700 000 рублей за комплексное решение",
+		"components": [
+			"central_server",
+			"pc",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi41",
+		"display_name": "Контур Безопасности",
+		"desc_path": "41.txt",
+		"price": 400000.0,
+		"price_desc": "От 400 000 рублей за базовый комплект",
+		"components": [
+			"physical_object",
+			"sensors",
+			"plc",
+			"gateway",
+			"wire",
+			"wireless",
+			"prom_pc",
+			"local_server",
+			"central_server",
+			"cloud",
+			"datacenter",
+			"pc",
+			"device"
+		]
+	},
+	{
+		"name": "szi42",
+		"display_name": "КриптоПро Обновление",
+		"desc_path": "42.txt",
+		"price": 200000.0,
+		"price_desc": "Лицензия от 200 тыс. руб. за серверную инсталляцию (зависит от масштабов).",
+		"components": [
+			"local_server",
+			"pc",
+			"device"
+		]
+	},
+	{
+		"name": "szi43",
+		"display_name": "Континент АП",
+		"desc_path": "43.txt",
+		"price": 500000.0,
+		"price_desc": "От 500 тыс. руб. за базовый комплект, зависит от количества узлов.",
+		"components": [
+			"local_server",
+			"pc"
+		]
+	},
+	{
+		"name": "szi44",
+		"display_name": "Обновление+",
+		"desc_path": "44.txt",
+		"price": 400000.0,
+		"price_desc": "От 400 тыс. руб.",
+		"components": [
+			"plc",
+			"gateway",
+			"wire",
+			"wireless",
+			"local_server",
+			"central_server",
+			"cloud",
+			"datacenter"
+		]
+	},
+	{
+		"name": "szi45",
+		"display_name": "Сфера Кибер",
+		"desc_path": "45.txt",
+		"price": 150000.0,
+		"price_desc": "От 150 000 рублей за базовый пакет для малого предприятия, масштабируемо.",
+		"components": [
+			"central_server",
+			"cloud",
+			"datacenter"
+		]
+	},
+	{
+		"name": "szi46",
+		"display_name": "Соболь",
+		"desc_path": "46.txt",
+		"price": 200000.0,
+		"price_desc": "От 200 000 рублей за базовую конфигурацию.",
+		"components": [
+			"prom_pc",
+			"plc",
+			"gateway"
+		]
+	},
+	{
+		"name": "szi47",
+		"display_name": "Континент-СПО",
+		"desc_path": "47.txt",
+		"price": 300000.0,
+		"price_desc": "От 300 000 рублей за начальный комплект.",
+		"components": [
+			"pc",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi48",
+		"display_name": "Аналитика-Защита",
+		"desc_path": "48.txt",
+		"price": 250000.0,
+		"price_desc": "От 250 000 рублей за базовую версию.",
+		"components": [
+			"central_server",
+			"local_server",
+			"cloud"
+		]
+	},
+	{
+		"name": "szi49",
+		"display_name": "СКУД Техноавиа",
+		"desc_path": "49.txt",
+		"price": 500000.0,
+		"price_desc": "От 100 000 рублей за базовый комплект для малых объектов, масштабируемо до миллионов рублей для крупных систем.",
+		"components": [
+			"physical_object",
+			"prom_pc",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi50",
+		"display_name": "Цербер",
+		"desc_path": "50.txt",
+		"price": 300000.0,
+		"price_desc": "От 300 000 рублей в базовой конфигурации, зависит от размера и сложности сети.",
+		"components": [
+			"central_server",
+			"prom_pc",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi51",
+		"display_name": "«СёрчИнформ» — SearchInform Endpoint Security",
+		"desc_path": "51.txt",
+		"price": 5000.0,
+		"price_desc": "От 5 000 рублей за одно рабочее место в год.",
+		"components": [
+			"pc",
+			"device",
+			"local_server"
+		]
+	},
+	{
+		"name": "szi52",
+		"display_name": "Атолл",
+		"desc_path": "52.txt",
+		"price": 200000.0,
+		"price_desc": "От 200 000 рублей за базовую систему (зависит от масштаба и функциональности).",
+		"components": [
+			"wire",
+			"wireless",
+			"gateway"
+		]
+	},
+	{
+		"name": "szi53",
+		"display_name": "РЕД СОФТ",
+		"desc_path": "53.txt",
+		"price": 50000.0,
+		"price_desc": "От 50 000 рублей за базовый пакет обучения для компании с реднего размера.",
+		"components": [
+			"local_server",
+			"pc"
+		]
+	},
+	{
+		"name": "szi54",
+		"display_name": "Континент",
+		"desc_path": "54.txt",
+		"price": 100000.0,
+		"price_desc": "Комплексные решения начинаются от 100 000 рублей за малый бизнес, масштабируются в зависимости от количества пользователей и модулей.",
+		"components": [
+			"physical_object",
+			"sensors",
+			"plc",
+			"gateway",
+			"wire",
+			"wireless",
+			"prom_pc",
+			"local_server",
+			"central_server",
+			"cloud",
+			"datacenter",
+			"pc",
+			"device"
+		]
+	}
+]

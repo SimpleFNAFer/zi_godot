@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c44fk047wisjg"]
+
+[ext_resource type="Script" uid="uid://dfb3p8gfqgnui" path="res://schema_build/connector/build_circle.gd" id="1_jpctc"]
+
+[node name="build_circle" type="Node2D"]
+script = ExtResource("1_jpctc")

@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=3 uid="uid://dht2u38stmu88"]
+
+[ext_resource type="Script" uid="uid://dcwchvsht2tfw" path="res://inventory.gd" id="1_q3lx5"]
+
+[node name="inventory" type="Control"]
+layout_mode = 3
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -400.0
+grow_horizontal = 2
+grow_vertical = 0
+script = ExtResource("1_q3lx5")
+
+[node name="panel" type="Panel" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="tabs" type="TabContainer" parent="panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+current_tab = 0
+
+[node name="components" type="ScrollContainer" parent="panel/tabs"]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="grid_container" type="HBoxContainer" parent="panel/tabs/components"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="connectors" type="ScrollContainer" parent="panel/tabs"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="grid_container" type="HBoxContainer" parent="panel/tabs/connectors"]
+layout_mode = 2
+size_flags_vertical = 3

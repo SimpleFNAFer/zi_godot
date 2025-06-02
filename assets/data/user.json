@@ -1,0 +1,159 @@
+[
+    {
+        "name": "user01",
+        "display_name": "Инженер по эксплуатации и техническому обслуживанию",
+        "desc_path": "01.txt",
+        "type": 0,
+        "components": [
+            "physical_object",
+            "sensors",
+            "plc",
+            "gateway",
+            "prom_pc",
+            "wire",
+            "wireless",
+            "local_server",
+            "device",
+            "pc"
+        ]
+    },
+    {
+        "name": "user02",
+        "display_name": "Системный администратор",
+        "desc_path": "02.txt",
+        "type": 0,
+        "components": [
+            "local_server",
+            "central_server",
+            "datacenter",
+            "cloud",
+            "wire",
+            "wireless",
+            "device",
+            "pc"
+        ]
+    },
+    {
+        "name": "user03",
+        "display_name": "Администратор безопасности",
+        "desc_path": "03.txt",
+        "type": 0,
+        "components": [
+            "physical_object",
+            "sensors",
+            "plc",
+            "gateway",
+            "wire",
+            "wireless",
+            "prom_pc",
+            "local_server",
+            "central_server",
+            "cloud",
+            "datacenter",
+            "device",
+            "pc"
+        ]
+    },
+    {
+        "name": "user04",
+        "display_name": "Диспетчер/оператор",
+        "desc_path": "04.txt",
+        "type": 0,
+        "components": [
+            "plc",
+            "gateway",
+            "prom_pc",
+            "local_server",
+            "device",
+            "pc"
+        ]
+    },
+    {
+        "name": "user05",
+        "display_name": "Аналитик по данным и специалист по моделированию",
+        "desc_path": "05.txt",
+        "type": 0,
+        "components": [
+            "central_server",
+            "cloud",
+            "datacenter",
+            "device",
+            "pc"
+        ]
+    },
+    {
+        "name": "user11",
+        "display_name": "Поставщики программного обеспечения и оборудования",
+        "desc_path": "11.txt",
+        "type": 1,
+        "components": [
+            "physical_object",
+            "sensors",
+            "plc",
+            "gateway",
+            "prom_pc",
+            "local_server",
+            "central_server",
+            "cloud",
+            "device",
+            "pc"
+        ]
+    },
+    {
+        "name": "user12",
+        "display_name": "Арендатор или провайдер дата-центров",
+        "desc_path": "12.txt",
+        "type": 1,
+        "components": [
+            "wire",
+            "wireless",
+            "central_server",
+            "cloud",
+            "datacenter"
+        ]
+    },
+    {
+        "name": "user13",
+        "display_name": "Внешние аналитики и консультанты",
+        "desc_path": "13.txt",
+        "type": 1,
+        "components": [
+            "local_server",
+            "central_server",
+            "cloud",
+            "device",
+            "pc"
+        ]
+    },
+    {
+        "name": "user14",
+        "display_name": "Наладчики и технические службы",
+        "desc_path": "14.txt",
+        "type": 1,
+        "components": [
+            "physical_object",
+            "sensors",
+            "plc",
+            "gateway",
+            "wire",
+            "wireless",
+            "prom_pc",
+            "local_server",
+            "device",
+            "pc"
+        ]
+    },
+    {
+        "name": "user15",
+        "display_name": "Облачные провайдеры",
+        "desc_path": "15.txt",
+        "type": 1,
+        "components": [
+            "central_server",
+            "cloud",
+            "datacenter",
+            "device",
+            "pc"
+        ]
+    }
+]

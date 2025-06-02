@@ -1,0 +1,76 @@
+[gd_scene load_steps=4 format=3 uid="uid://b5wjv26nry3bm"]
+
+[ext_resource type="PackedScene" uid="uid://dht2u38stmu88" path="res://inventory.tscn" id="2_316po"]
+[ext_resource type="Script" uid="uid://be0g2kto0m5c" path="res://button_next.gd" id="3_2sq44"]
+[ext_resource type="Script" uid="uid://bw2xdxwh242vg" path="res://schema_class.gd" id="3_m4bdw"]
+
+[node name="schema_build" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="bg" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.803922, 0.952941, 0.980392, 1)
+
+[node name="field" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -200.0
+color = Color(0.803922, 0.952941, 0.980392, 1)
+
+[node name="inventory" parent="." instance=ExtResource("2_316po")]
+layout_mode = 1
+offset_top = -350.0
+
+[node name="next_button" type="Button" parent="."]
+custom_minimum_size = Vector2(200, 75)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -200.0
+offset_bottom = 75.0
+grow_horizontal = 0
+text = "ДАЛЕЕ"
+script = ExtResource("3_2sq44")
+
+[node name="schema_class" type="OptionButton" parent="."]
+layout_mode = 0
+offset_right = 32.0
+offset_bottom = 20.0
+selected = 1
+item_count = 3
+popup/item_0/text = "k1"
+popup/item_0/id = 0
+popup/item_1/text = "k2"
+popup/item_1/id = 1
+popup/item_2/text = "k3"
+popup/item_2/id = 2
+script = ExtResource("3_m4bdw")
+
+[node name="items" type="Control" parent="."]
+anchors_preset = 0
+
+[node name="connectors" type="Node2D" parent="items"]
+
+[node name="components" type="Control" parent="items"]
+anchors_preset = 0
+
+[node name="vuls" type="Control" parent="items"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[connection signal="button_down" from="next_button" to="next_button" method="_on_button_down"]
+[connection signal="item_selected" from="schema_class" to="schema_class" method="_on_item_selected"]

@@ -1,0 +1,114 @@
+[gd_scene load_steps=3 format=3 uid="uid://c2ig4him8dphb"]
+
+[ext_resource type="Script" uid="uid://bltwuyc4ipxo7" path="res://measures.gd" id="1_n3tnw"]
+[ext_resource type="Script" uid="uid://bqjwb68a54d6" path="res://measures_prev.gd" id="2_6phaj"]
+
+[node name="measures" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_n3tnw")
+
+[node name="bg" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.803922, 0.952941, 0.980392, 1)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="bg"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="base" type="Panel" parent="bg/HBoxContainer"]
+custom_minimum_size = Vector2(400, 600)
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="title" type="Label" parent="bg/HBoxContainer/base"]
+custom_minimum_size = Vector2(400, 50)
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -200.0
+offset_right = 200.0
+offset_bottom = 50.0
+grow_horizontal = 2
+text = "БАЗОВЫЙ НАБОР"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="scroll" type="ScrollContainer" parent="bg/HBoxContainer/base"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 50.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="tree" type="Tree" parent="bg/HBoxContainer/base/scroll"]
+custom_minimum_size = Vector2(400, 550)
+layout_mode = 2
+
+[node name="adv" type="Panel" parent="bg/HBoxContainer"]
+custom_minimum_size = Vector2(400, 600)
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="bg/HBoxContainer/adv"]
+custom_minimum_size = Vector2(400, 50)
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -200.0
+offset_right = 200.0
+offset_bottom = 50.0
+grow_horizontal = 2
+text = "АДАПТАЦИЯ БАЗОВОГО НАБОРА"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="scroll" type="ScrollContainer" parent="bg/HBoxContainer/adv"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 50.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="tree" type="Tree" parent="bg/HBoxContainer/adv/scroll"]
+custom_minimum_size = Vector2(400, 550)
+layout_mode = 2
+
+[node name="prev" type="Button" parent="bg"]
+layout_mode = 1
+offset_right = 113.0
+offset_bottom = 50.0
+text = "НАЗАД"
+script = ExtResource("2_6phaj")
+
+[node name="next" type="Button" parent="bg"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -110.0
+offset_bottom = 50.0
+grow_horizontal = 0
+text = "ДАЛЕЕ"
+
+[connection signal="button_down" from="bg/prev" to="bg/prev" method="_on_button_down"]
